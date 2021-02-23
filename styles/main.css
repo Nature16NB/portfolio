@@ -1,0 +1,11 @@
+body {
+    background-image: url("../images/Dweam.jpg"); 
+    background-repeat: no-repeat,repeat; 
+    background-size: cover;
+}
+
+p{
+    color: fuchsia;
+    font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
