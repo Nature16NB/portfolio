@@ -37,13 +37,14 @@
     width: 50%;
     }
     
-    .Homepageintro{
+    
+    .p .Homepageintro{
         vertical-align: top;
         width: 40%;
         display: inline-block;
         color: deepskyblue;
         font-size: 1.5em;
-        font-family: 'Akaya Telivigala', cursive;;
+        font-family: 'Akaya Telivigala', cursive;
     }
 
     .row{
