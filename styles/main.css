@@ -37,7 +37,6 @@
     width: 50%;
     }
     
-    
     .Homepageintro{
         vertical-align: top;
         width: 40%;
@@ -53,8 +52,4 @@
 
     body{
       background-color: khaki;
-    }
-
-    .website-logo{
-      font-size: 15em;
     }
