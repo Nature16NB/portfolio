@@ -47,3 +47,7 @@
         width: 40%;
         display: inline-block;
     }
+
+    .row{
+      width: 100%; 
+    }
