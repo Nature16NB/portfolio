@@ -36,3 +36,14 @@
   .logo{
     text-align: center;
   }
+
+  .image-with-caption{
+    display: inline-block;
+    width: 50%;
+    }
+    
+    .homepage{
+        vertical-align: top;
+        width: 40%;
+        display: inline-block;
+    }
