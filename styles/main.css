@@ -28,11 +28,6 @@
     font-size: 17px;
   }
 
-  .name {
-    color: rgb(70, 124, 206);
-   text-align: center;
-  }
-
   .logo{
     text-align: center;
   }
@@ -46,8 +41,13 @@
         vertical-align: top;
         width: 40%;
         display: inline-block;
+        color: deepskyblue;
     }
 
     .row{
       width: 100%; 
+    }
+
+    .body{
+      background-color: khaki;
     }
