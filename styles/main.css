@@ -30,7 +30,6 @@
 
   .logo{
     text-align: center;
-    font-family: 'DotGothic16', sans-serif;
   }
 
   .image-with-caption{
@@ -54,4 +53,8 @@
 
     body{
       background-color: khaki;
+    }
+
+    .website-logo{
+      font-family: 'DotGothic16', sans-serif;
     }
