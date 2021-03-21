@@ -53,3 +53,8 @@
     body{
       background-color: khaki;
     }
+
+    button{
+      background-color: darkcyan;
+      color: darksalmon;
+    }
