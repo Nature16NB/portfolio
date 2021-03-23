@@ -11,11 +11,9 @@ function warning() {
 // JavaScript Exercise 1- Finding The Larger Number
 function LargerNumber() {
     
-    var first = Number(prompt('Enter first number')); // Input 1: 20
-    var second = Number(prompt('Enter second number')); // Input 2: 5
-
-console.log(largest(first, second));
-
+    var list = (3, 18)
+    const min = (list) => Math.min(...list);
+    const max = (list) => Math.max(...list);
    }
 
 // JavaScript Exercise 2-
