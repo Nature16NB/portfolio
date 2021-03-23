@@ -14,8 +14,8 @@ function LargerNumber() {
     var num1 = 3;
     var num2 = 18;
 
-    if (3 < 18)
-    return "18";
+    if(num1 < num2)
+		return num2;
 
    }
 
