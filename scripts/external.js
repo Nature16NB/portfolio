@@ -4,30 +4,30 @@ function script2() {
     alert("Script 2 coming soon...");   
 }
 
-function f3() {
-    alert("Script 2 coming soon...");   
+function script3() {
+    alert("Script 3 coming soon...");   
    }
 
-function f4() {
-    alert("Script 2 coming soon...");   
+function script4() {
+    alert("Script 4 coming soon...");   
    }
 
-function f5() {
-    alert("Script 2 coming soon...");   
+function script5() {
+    alert("Script 5 coming soon...");   
    }   
 
-function f6() {
-    alert("Script 2 coming soon...");   
+function script6() {
+    alert("Script 6 coming soon...");   
    }
 
-function f7() {
-    alert("Script 2 coming soon...");   
+function script7() {
+    alert("Script 7 coming soon...");   
    }
 
-function f8() {
-    alert("Script 2 coming soon...");   
+function script8() {
+    alert("Script 8 coming soon...");   
    }
 
-function f9() {
-    alert("Script 2 coming soon...");   
+function script9() {
+    alert("Script 9 coming soon...");   
    }
