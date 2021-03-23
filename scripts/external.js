@@ -5,7 +5,7 @@ function script1() {
 }
 
 function script2() {
-    alert("Script 2 coming soon... The following buttons are for Assignment 5. Don't freak out...");   
+    alert("The following buttons are for Assignment 5. Don't freak out...");   
 }
 
 function script3() {
