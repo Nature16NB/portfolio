@@ -10,10 +10,11 @@ function warning() {
 
 // JavaScript Exercise 1- Finding The Larger Number
 function LargerNumber() {
-      
-    var num1 = 3;
-    var num2 = 18;
-    console.log(largest(num1, num2));
+    
+    var first = 10;
+    var second = 50;
+
+console.log(largest(first, second));
 
    }
 
