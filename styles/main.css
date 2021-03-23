@@ -1,0 +1,61 @@
+.topnav {
+    background-color: fuchsia;
+    overflow: hidden;
+  }
+
+  /* Style the links inside the navigation bar /
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  / Change the color of links on hover */
+  .topnav a:hover {
+    background-color: orangered;
+    color: yellow;
+  }
+
+  .topnav a {
+    float: left;
+    color:crimson;
+    text-align: initial;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .logo{
+    text-align: center;
+  }
+
+  .image-with-caption{
+    display: inline-block;
+    width: 50%;
+    }
+    
+    .intro{
+        vertical-align: top;
+        width: 40%;
+        display: inline-block;
+        color: deepskyblue;
+        font-size: 1.5em;
+        font-family: 'Akaya Telivigala', cursive;
+    }
+
+    .row{
+      width: 100%; 
+    }
+
+    body{
+      background-color: khaki;
+    }
+
+    button{
+      background-color: greenyellow;
+      color: red;
+
+    }
