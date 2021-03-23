@@ -11,9 +11,25 @@ function warning() {
 // JavaScript Exercise 1- Finding The Larger Number
 function LargerNumber() {
     
-    var list = (3, 18)
-    const min = (list) => Math.min(...list);
-    const max = (list) => Math.max(...list);
+    Let Num1, Num2
+    Num1 = prompt("Please enter your first number");
+    Num2 = prompt("Please enter your second number");
+
+    if (Num1 == Num2){
+        alert ('The two integers you entered are equal');
+    }
+
+    else if (Num1 > Num2){
+        alert ('The first integer is larger than the second one');
+    }
+
+    else if (Num1 < Num2){
+        alert ('The second integer is larger than the first one');
+    }
+
+    else 
+        alert ('The characters you entered are not integers. Please try again')
+
    }
 
 // JavaScript Exercise 2-
