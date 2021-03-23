@@ -1,5 +1,9 @@
 // function for buttons
 
+function script1() {
+    alert("This website itself can be considered as my first project!");   
+}
+
 function script2() {
     alert("Script 2 coming soon...");   
 }
