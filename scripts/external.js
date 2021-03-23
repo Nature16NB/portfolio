@@ -1,6 +1,6 @@
 // function for buttons
 
-function f2() {
+function script2() {
     alert("Script 2 coming soon...");   
 }
 
