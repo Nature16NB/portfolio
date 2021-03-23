@@ -20,7 +20,7 @@ function LargerNumber() {
         } else if (number2 > number1){
             output = number2;
         } else {
-            output = ("What you just inserted makes no sense.";
+            output = ("What you just inserted makes no sense.");
         }
         document.getElementById('LargerNumber').innerHTML = output;
     }
