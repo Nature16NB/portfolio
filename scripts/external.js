@@ -11,20 +11,12 @@ function warning() {
 // JavaScript Exercise 1- Finding The Larger Number
 function LargerNumber() {
     
-    let number1 = prompt("Enter the first number");
-    let number2 = prompt("Enter the second number");
-        if (number1 > number2){
-            output = number1;
-        } else if (number2 == number1){
-            output = "The numbers are equal";
-        } else if (number2 > number1){
-            output = number2;
-        } else {
-            output = ('What you just inserted makes no sense.');
-        }
-        document.getElementById('intro').innerHTML = output;
+    let number1 = '3';
+    let number2 = '18';
+
+    if ( number1 < number2)
+    return "18";
     }
-   }
 
 // JavaScript Exercise 2-
 function script4() {
