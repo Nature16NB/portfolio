@@ -5,8 +5,7 @@ function script1() {
 }
 
 function script2() {
-    alert("Script 2 coming soon..." "Also just to let you know that this is just to show that Assignment 4" 
-    "is working and the rest of the buttons are working for Assignment 5, so please don't worry about why its not working. Enjoy!");   
+    alert("Script 2 coming soon... The following buttons are for Assignment 5. Don't freak out...");   
 }
 
 function script3() {
