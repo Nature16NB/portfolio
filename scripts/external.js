@@ -22,7 +22,7 @@ function LargerNumber() {
         } else {
             output = ('What you just inserted makes no sense.');
         }
-        document.getElementById('LargerNumber').innerHTML = output;
+        document.getElementById('intro').innerHTML = output;
     }
    }
 
