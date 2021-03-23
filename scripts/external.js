@@ -11,6 +11,12 @@ function warning() {
 // JavaScript Exercise 1- Finding The Larger Number
 function LargerNumber() {
       
+    var num1 = 3;
+    var num2 = 18;
+
+    if (3 < 18)
+    return "18";
+
    }
 
 // JavaScript Exercise 2-
