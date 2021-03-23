@@ -57,5 +57,9 @@
     button{
       background-color: greenyellow;
       color: red;
+      font-size: 0.75em;
+      padding: 10px 24px;
+      border-radius: 8px;
+      
 
     }
