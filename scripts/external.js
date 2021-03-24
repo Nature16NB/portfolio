@@ -14,12 +14,12 @@ function LargerNumber() {
     let number2 = parseInt(prompt ('Enter the 2nd Number.'));
 
     if ( number1 < number2) {
-        document.getElementById("").innerHTML="The 2nd number is larger than the 1st one."
+        document.getElementById("Larger").innerHTML="The 2nd number is larger than the 1st one."
     } 
     else if ( number1 > number2 ) {
-        document.getElementById("").innerHTML="The 1st number is larger than the 2nd one."
+        document.getElementById("Larger").innerHTML="The 1st number is larger than the 2nd one."
     }
-    
+
 
 }
 
