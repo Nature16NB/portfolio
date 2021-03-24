@@ -8,7 +8,6 @@ function warning() {
     alert("The following buttons are for Assignment 5. Don't freak out if it doesn't appear right.");   
 }
 
-// JavaScript Exercise 1- Finding The Larger Number
 function LargerNumber() {
     
     let number1 = '3';
