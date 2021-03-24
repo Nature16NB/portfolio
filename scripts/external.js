@@ -13,13 +13,15 @@ function LargerNumber() {
     let number1 = parseInt(prompt ('Enter the 1st Number.'));
     let number2 = parseInt(prompt ('Enter the 2nd Number.'));
 
-    if ( number1 < number2) {
+    if ( number1 < number2 ) {
         document.getElementById("Larger").innerHTML="The 2nd number is larger than the 1st one."
     } 
     else if ( number1 > number2 ) {
         document.getElementById("Larger").innerHTML="The 1st number is larger than the 2nd one."
     }
-
+    else ( number1 == number2 ) {
+        document.getElementById("Larger").innerHTML="Both the numbers are equal"
+    }
 
 }
 
