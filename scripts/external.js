@@ -32,13 +32,16 @@ function LargerNumber() {
 
 function signOfProduct() {
     
-    let number1 = parseInt( Math.sign (prompt ('Enter the 1st Number.')));
-    let number2 = parseInt( Math.sign (prompt ('Enter the 2nd Number.')));
-    let number3 = parseInt( Math.sign (prompt ('Enter the 3rd Number.')));
+    let number1 = '8';
+    let number2 = '2';
+    let number3 = '-3';
+    let product = [number1 * number2 * number3];
+    let browserType = product;
+    browserType.length;
 
-    if ( number1 * number2 * number3) {
-        document.getElementById("Signs").innerHTML="The sign is still unknown, code unfunctional"
-    }
+
+
+
     
 }
 
@@ -84,4 +87,29 @@ function Centuries() {
 
 function ThirdAngle() {
     alert("May the person who reads this be blessed by God for a better future :)");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function signOfProduct() {
+    
+    let number1 = parseInt( Math.sign (prompt ('Enter the 1st Number.')));
+    let number2 = parseInt( Math.sign (prompt ('Enter the 2nd Number.')));
+    let number3 = parseInt( Math.sign (prompt ('Enter the 3rd Number.')));
+
+    if ( number1 * number2 * number3) {
+        document.getElementById("Signs").innerHTML="The sign is still unknown, code unfunctional"
+    }
+    
 }
