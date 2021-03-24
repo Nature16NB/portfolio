@@ -4,6 +4,7 @@ function script1() {
     alert("This website itself can be considered as my first project!");   
 }
 
+// Be Aware!!!
 function warning() {
     alert("The following buttons are for Assignment 5. Don't freak out if it doesn't appear right.");   
 }
