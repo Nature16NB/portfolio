@@ -8,31 +8,48 @@ function warning() {
     alert("The following buttons are for Assignment 5. Don't freak out if it doesn't appear right.");   
 }
 
+// JavaScript Exercise 1- Finding the Larger Number
+
 function LargerNumber() {
     
     let number1 = parseInt(prompt ('Enter the 1st Number.'));
     let number2 = parseInt(prompt ('Enter the 2nd Number.'));
 
     if ( number1 < number2 ) {
-        document.getElementById("Larger").innerHTML="The 2nd number is larger than the 1st one."
+        document.getElementById("Larger").innerHTML="The 2nd number is larger than the 1st one.";
     } 
     else if ( number1 > number2 ) {
-        document.getElementById("Larger").innerHTML="The 1st number is larger than the 2nd one."
+        document.getElementById("Larger").innerHTML="The 1st number is larger than the 2nd one.";
     }
-    else ( number1 == number2 ) {
+    else if( number1 == number2 ) {
         document.getElementById("Larger").innerHTML="Both the numbers are equal"
     }
 
 }
 
 // JavaScript Exercise 2-
-function script4() {
-    alert("Script 4 coming soon...");   
-   }
+function signOfProduct() {
+    
+    let number1 = parseInt( Math.sign (prompt ('Enter the 1st Number.')));
+    let number2 = parseInt( Math.sign (prompt ('Enter the 2nd Number.')));
+    let number3 = parseInt( Math.sign (prompt ('Enter the 3rd Number.')));
+
+    if ( number1 * number2 * number3) {
+        document.getElementById("Signs").innerHTML="The sign is still unknown, code unfunctional"
+    }
+    
+}
 
 // JavaScript Exercise 3-
-function script5() {
-    alert("Script 5 coming soon...");   
+function LeastToGreat() {
+      
+    let number1 = parseInt(prompt ('Enter the 1st Number.'));
+    let number2 = parseInt(prompt ('Enter the 2nd Number.'));
+    let number3 = parseInt(prompt ('Enter the 3rd Number.'));
+
+    if ( number1 < number2 && number1 < number3) {
+        document.getElementById("L.T.G.").innerHTML="number 1"
+    }
    }   
 
 // JavaScript Exercise 4
