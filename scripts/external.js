@@ -27,7 +27,8 @@ function LargerNumber() {
 
 }
 
-// JavaScript Exercise 2-
+// JavaScript Exercise 2- Finding the sign of the product of three numbers
+
 function signOfProduct() {
     
     let number1 = parseInt( Math.sign (prompt ('Enter the 1st Number.')));
@@ -40,7 +41,8 @@ function signOfProduct() {
     
 }
 
-// JavaScript Exercise 3-
+// JavaScript Exercise 3- Least to Greatest with 3 numbers
+
 function LeastToGreat() {
       
     let number1 = parseInt(prompt ('Enter the 1st Number.'));
@@ -52,22 +54,33 @@ function LeastToGreat() {
     }
    }   
 
-// JavaScript Exercise 4
-function script6() {
-    alert("Script 6 coming soon...");   
+// JavaScript Exercise 4- Using For Loop Functions
+
+function ForLoop() {
+    alert("Work in Progress");   
    }
 
-// JavaScript Exercise 5
-function script7() {
-    alert("Script 7 coming soon...");   
+
+// JavaScript Exercise 5- Using While Loop Functions
+
+function WhileLoop() {
+    alert("Give me some time....pls");   
    }
 
-// JavaScript Exercise 6
-function script8() {
-    alert("Script 8 coming soon...");   
+// JavaScript Exercise 6- Finding multiples of 10 and 4
+
+function TenFour() {
+    alert("Could I get just a 90 for this course?");   
    }
 
-// JavaScript Exercise 7
-function script9() {
-    alert("Script 9 coming soon...");   
+// JavaScript Exercise 7- Which century are you in?
+
+function Centuries() {
+    alert("Would appreciate it! :)");   
    }
+
+// JavaScript Exercise 8- Finding the Third Angle
+
+function ThirdAngle() {
+    alert("May the person who reads this be blessed by God for a better future :)");
+}
