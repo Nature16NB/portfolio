@@ -32,12 +32,12 @@ function LargerNumber() {
 
 function signOfProduct() {
     
-    let number1 = '8';
-    let number2 = '2';
-    let number3 = '-3';
+    let number1 = parseInt(prompt ('Enter your 1st number'));
+    let number2 = parseInt(prompt ('Enter your 2nd number'));
+    let number3 = parseInt(prompt ('Enter your 3rd number'));
     let product = [number1 * number2 * number3];
     
-    console.log('The sign is', product);
+    console.log('The sign is:', product);
 
 }
 
