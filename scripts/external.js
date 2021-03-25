@@ -36,13 +36,9 @@ function signOfProduct() {
     let number2 = '2';
     let number3 = '-3';
     let product = [number1 * number2 * number3];
-    let browserType = product;
-    browserType.length;
-
-
-
-
     
+    console.log('The sign is', product);
+
 }
 
 // JavaScript Exercise 3- Least to Greatest with 3 numbers
