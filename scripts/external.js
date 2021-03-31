@@ -59,31 +59,11 @@ function signOfProduct() {
         
     else {
         sign = "Dude, enter something that makes sense like numbers."
-
     }
 
     document.getElementById("Signs").innerHTML = sign;
 
-// Part 2: Finding the product  
-
-    if product == 0 {
-        plusminus =  "Your product is 0. Just 0.";
-    }
-
-    else if (product < 0) {
-        plusminus = "Your product is negative";
-//     }
-
-//     else if (num1 * num2 * num3 == 0) {
-//         plusminus = "Your product is neutral"
-//     }
-
-//     else {
-//         signofproducts = "please enter a valid number"
-//     }
-//     document.getgetElementById("riddle-button2").innerHTML = signofproducts;
-//     //Here I tried to account for all possible outcomes and planning an alert for what would happen if such event were to occur. If the user entered any amounts of 0 in a slot, the outcome would result in a 0 so in order to prevent a lot of invalids come up, I made a "neutral" alert which told the useer their product isn't positive or negative
-// }
+}
 
 // JavaScript Exercise 3- Least to Greatest with 3 numbers
 
