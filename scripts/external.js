@@ -75,7 +75,7 @@ function LeastToGreat() {
 
     // If number 1 is lesser than numbers 2 and 3 and number 2 is lesser than number 3. The order would be num1, num2, num3.
     if ( number1 < number2 && number1 < number3 && number2 < number3) {
-        answer = "Your 1st number is the least greatest, followed by your 2nd number, and lastly, your 3rd number being the largest";
+        answer = number1.toString() + " " + number2.toString() + " " + number3.toString() + " ";
     }
     
     // If number 1 is lesser than numbers 2 and 3 but number 2 is greater than number 3. The order would be num1, num3, num2.
@@ -104,9 +104,9 @@ function LeastToGreat() {
     }
 
     else {
-        answer = ('Invalid character unable to process');
+        answer = 'Invalid character unable to process';
     }
-    document.getElementById("LeastToGreat").innerHTML = output;
+    document.getElementById("LTG").innerHTML = answer;
 
 }   
 
