@@ -35,7 +35,6 @@ function LargerNumber() {
 }
 
 // JavaScript Exercise 2- Finding the sign of the product of three numbers
-// Part 1: Finding the sign
 
 function signOfProduct() {
     
@@ -72,11 +71,44 @@ function LeastToGreat() {
     let number1 = parseInt(prompt ('Enter the 1st Number.'));
     let number2 = parseInt(prompt ('Enter the 2nd Number.'));
     let number3 = parseInt(prompt ('Enter the 3rd Number.'));
+    let answer = "";
 
-    if ( number1 < number2 && number1 < number3) {
-        document.getElementById("L.T.G.").innerHTML="number 1"
+    // If number 1 is lesser than numbers 2 and 3 and number 2 is lesser than number 3. The order would be num1, num2, num3.
+    if ( number1 < number2 && number1 < number3 && number2 < number3) {
+        answer = "Your 1st number is the least greatest, followed by your 2nd number, and lastly, your 3rd number being the largest";
     }
-   }   
+    
+    // If number 1 is lesser than numbers 2 and 3 but number 2 is greater than number 3. The order would be num1, num3, num2.
+    else if (number1 < number2 && number1 < number3 && number2 > number3) {
+        answer = "Your 1st number is the least greatest, followed by your 3rd number, and lastly, your 2nd number being the largest";
+    }
+
+    // If number 1 is lesser than number 2 but is greater than number 3, along with number 2 greater than number 3. The order would be num3, num1, num2. 
+    else if (number1 < number2 && number1 > number3 && number2 > number3) {
+        answer = "Your 3rd number is the least greatest, followed by your 1st number, and lastly, your 2nd number being the largest";
+    } 
+
+    // If number 1 is lesser than number 3 but is greater than number 2, along with number 3 greater than number 2. The order would be num2, num1, num3.
+    else if (number1 < number3 && number1 > number2 && number3 > number2) {
+        answer = "Your 2nd number is the least greatest, followed by your 1st number, and lastly, your 3rd number being the largest";
+    }
+
+    // If number 2 is lesser than numbers 1 and 3 but is number 1 is greater than number 3. The order would be num2, num3, num1.
+    else if (number2 < number3 && number2 < number1 && number1 > number3) {
+        answer = "Your 2nd number is the least greatest, followed by your 3rd number, and lastly, your 1st number being the largest";
+    }
+
+    // If number 3 is lesser than numbers 1 and 2 but number 1 is greater than number 2. The order would be num3, num2, num1.
+    else if (number3 < number1 && number3 < number2 && number1 > number2) {
+        answer = "Your 3rd number is the least greatest, followed by your 2nd number, and lastly, your 1st number being the largest";
+    }
+
+    else {
+        answer = ('Invalid character unable to process');
+    }
+    document.getElementById("LeastToGreat").innerHTML = output;
+
+}   
 
 // JavaScript Exercise 4- Using For Loop Functions
 
