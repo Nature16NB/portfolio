@@ -112,15 +112,21 @@ function LeastToGreat() {
 
 // JavaScript Exercise 4- Using For Loop Functions
 
-function ForLoop() {
-    alert("Work in Progress");   
-   }
+function forSumThrees() {
+    let threesumunder1000 = 0;
 
+    for(let a = 0; a < 1000; a += 3) {
+    }
+    if (a % 3 === 0) {
+    }
+    threesumunder1000 += a;
+    alert (threesumunder1000);
+}
 
 // JavaScript Exercise 5- Using While Loop Functions
 
 function WhileLoop() {
-    alert("Give me some time....pls");   
+      
    }
 
 // JavaScript Exercise 6- Finding multiples of 10 and 4
