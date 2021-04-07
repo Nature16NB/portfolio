@@ -125,20 +125,46 @@ function forSumThrees() {
 
 // JavaScript Exercise 5- Using While Loop Functions
 
-function WhileLoop() {
-      
-   }
+function whileSumThrees() {
+    let threesumunder1000 = 0;
+    let a = 0
+    
+    while (a < 1000) {
+        threesumunder1000 += a;
+        a = a + 3;
+        alert (threesumunder1000)
+    }
+}
 
 // JavaScript Exercise 6- Finding multiples of 10 and 4
 
-function TenFour() {
-    alert("Could I get just a 90 for this course?");   
-   }
+function tenFour() {
+    let a = 0;
+
+    while (a < 100)
+    a = a + 1;
+
+    if (a % 4 === 0 && a % 10 === 0) {
+        return ("TenFour!");
+    }
+    
+    else if (a % 4 === 0) {
+        return ('Four');
+    }
+
+    else if (a % 10 === 0) {
+        return ('Ten');
+    }
+    
+    else if (a % 4 !== 0 && a % 10 !== 0) {
+        return ('This number is no multiple of 4 or 10.');
+    }
+}
 
 // JavaScript Exercise 7- Which century are you in?
 
 function Centuries() {
-    alert("Would appreciate it! :)");   
+       
    }
 
 // JavaScript Exercise 8- Finding the Third Angle
