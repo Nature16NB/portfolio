@@ -163,12 +163,25 @@ function tenFour() {
 
 // JavaScript Exercise 7- Which century are you in?
 
-function Centuries() {
-       
-   }
+function centuryFromYear() {
+    let year = prompt ('Enter your year here.')
+    let century = (year % 100) + 1
+        alert (century);
+}
 
 // JavaScript Exercise 8- Finding the Third Angle
 
-function ThirdAngle() {
-    alert("May the person who reads this be blessed by God for a better future :)");
+function thirdAngle() {
+    let angle1 = prompt ('Enter your first angle here.')
+    let angle2 = prompt ('Enter your second angle here.')
+    sum = angle1 + angle2
+
+    if (sum < 180 && sum > 0) {
+        a = 180 - sum
+        alert (a);
+    }
+    else {
+        alert ('The stuff that you entered seems invalid. Try to add some numbers with only positivity in it for the button to work :)')
+    }
+    
 }
