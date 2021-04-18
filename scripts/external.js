@@ -185,3 +185,21 @@ function thirdAngle() {
     }
     
 }
+
+// JavaScript Encryption: Will take a message full of letters, numbers and symbols, and converts into a cipher text message for the user to see.
+
+function Encrypt() {
+    let text = prompt("Enter your message for it tpo be encrypted. Just to let you know, this button is for a different assignment related to encrypting and decrypting, so enjoy the usage of secret messages with my program :)");
+    let cipheredtext = "";
+    text = text.split(" "); 
+    for( let a = 0 ; a < text.length ; a = a + 1 ){ // for each word in the plaintext, do the following
+      if (plaintext[i].length > 2) { // If the current word is 3 or more letters, do the following:
+        firstletter = plaintext[i][0]; // Save the first letter of the current word
+        ciphertext += (plaintext[i]).slice(1,) // Add the current word to the ciphertext string, slicing off the first letter  
+        ciphertext += firstletter + "ay "; // Add the first letter and "ay" to the end of the current word 
+      } else {
+        ciphertext += (plaintext[i] + " ")  // Words of length 2 or less are added to the message, unaltered
+      }
+    }
+    document.getElementById("encrypted").innerHTML = ciphertext;
+  }
