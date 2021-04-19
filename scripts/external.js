@@ -189,10 +189,24 @@ function thirdAngle() {
 // JavaScript Encryption: Will take a message full of letters, numbers and symbols, and converts into a cipher text message for the user to see.
 
 function Encrypt() {
-    let text = prompt("Enter your message for it tpo be encrypted. Just to let you know, this button is for a different assignment related to encrypting and decrypting, so enjoy the usage of secret messages with my program :)");
+
+    let normaltext = prompt ("Please enter your message into the box:");
     let cipheredtext = "";
-    text = text.split(" "); 
-    for( let a = 0 ; a < text.length ; a = a + 1 ){ // for each word in the plaintext, do the following
+    let 
+
+}
+
+
+
+
+
+function pigified(){
+    // Takes a plaintext message, alters it, and returns the ciphertext to the user
+    let plaintext = prompt("Enter your plaintext message:");
+    let ciphertext = "";
+    let firstletter = "";
+    plaintext = plaintext.split(" "); // String is slplit around spaces to create a list of words
+    for( let i = 0 ; i < plaintext.length ; i = i + 1 ){ // for each word in the plaintext, do the following
       if (plaintext[i].length > 2) { // If the current word is 3 or more letters, do the following:
         firstletter = plaintext[i][0]; // Save the first letter of the current word
         ciphertext += (plaintext[i]).slice(1,) // Add the current word to the ciphertext string, slicing off the first letter  
@@ -203,3 +217,17 @@ function Encrypt() {
     }
     document.getElementById("encrypted").innerHTML = ciphertext;
   }
+  
+  function unpigified(){
+    // (Unfinished) Takes a ciphertext message, alters it by reversing the changes made in the pigified() function, and returns the plaintext to the user
+    let ciphertext = prompt("Enter your encrypted message:");
+    let plaintext = "OopA! This function has not been written yet";
+    let cipherList = ciphertext.split(" ");
+    for( let i = 0 ; i < cipherList.length ; i = i + 1 ){ // for each word in the plaintext, do the following
+      }
+    }
+    document.getElementById("decrypted").innerHTML = plaintext;
+  }
+  
+  
+  Resources
