@@ -188,36 +188,43 @@ function thirdAngle() {
 
 // JavaScript Encryption: Will take a message full of letters, numbers and symbols, and converts into a cipher text message for the user to see.
 
+// Any messages will be encrypted by using the first letter of the word as the last letter of the word and the last letter as the first.
+
 function Encrypt() {
 
     let normaltext = prompt ("Please enter your message into the box:");
     let cipheredtext = "";
-    let 
+    let firstletter = "";
+    let lastletter = "";
+    
+    normaltext = normaltext.replace (" ");
+    for ( let a = 0; a < normaltext.replace; a = a + 1) {
+        if (normaltext[a].replace > 1) {
+            firstletter = normaltext[a][1-57];
+            lastletter = normaltext[a][0];
+            cipheredtext += (normaltext[a].replace(1,));
+            cipheredtext += lastletter + normaltext + firstletter;
+        } 
 
+        else {
+            cipheredtext += (normaltext[a])
+        }
+    }
 }
 
+// Takes a certain ciphered message and tries to reverse the changes made to the original word. 
+  function Decrypt() {
+      
+    let cipheredtext = prompt("Please enter your encrypted message: ");
+    let normaltext = "";
+    let cipher = cipheredtext.replace (" ");
 
-
-
-
-function pigified(){
-    // Takes a plaintext message, alters it, and returns the ciphertext to the user
-    let plaintext = prompt("Enter your plaintext message:");
-    let ciphertext = "";
-    let firstletter = "";
-    plaintext = plaintext.split(" "); // String is slplit around spaces to create a list of words
-    for( let i = 0 ; i < plaintext.length ; i = i + 1 ){ // for each word in the plaintext, do the following
-      if (plaintext[i].length > 2) { // If the current word is 3 or more letters, do the following:
-        firstletter = plaintext[i][0]; // Save the first letter of the current word
-        ciphertext += (plaintext[i]).slice(1,) // Add the current word to the ciphertext string, slicing off the first letter  
-        ciphertext += firstletter + "ay "; // Add the first letter and "ay" to the end of the current word 
-      } else {
-        ciphertext += (plaintext[i] + " ")  // Words of length 2 or less are added to the message, unaltered
-      }
-    }
-    document.getElementById("encrypted").innerHTML = ciphertext;
+    for ( let a = 0; a < cipheredtext)
   }
-  
+
+
+
+
   function unpigified(){
     // (Unfinished) Takes a ciphertext message, alters it by reversing the changes made in the pigified() function, and returns the plaintext to the user
     let ciphertext = prompt("Enter your encrypted message:");
@@ -227,7 +234,5 @@ function pigified(){
       }
     }
     document.getElementById("decrypted").innerHTML = plaintext;
-  }
+
   
-  
-  Resources
