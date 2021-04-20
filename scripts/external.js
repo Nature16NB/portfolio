@@ -202,13 +202,14 @@ function Encrypt() {
         if (normaltext[a].replace > 1) {
             firstletter = normaltext[a][1-57];
             lastletter = normaltext[a][0];
-            cipheredtext += (normaltext[a].replace(1,));
+            cipheredtext += (normaltext[a].replace(0,));
             cipheredtext += lastletter + normaltext + firstletter;
         } 
 
         else {
-            cipheredtext += (normaltext[a])
+            cipheredtext += (normaltext[a]);
         }
+        
     }
 }
 
@@ -219,7 +220,19 @@ function Encrypt() {
     let normaltext = "";
     let cipher = cipheredtext.replace (" ");
 
-    for ( let a = 0; a < cipheredtext)
+    for (let a = 0; a < cipheredtext.replace(1,)) {
+        if ( cipheredtext[a].replace > 1) {
+            firstletter = cipheredtext[a][0];
+            lastletter = cipheredtext[a][1-57];
+            normaltext += (cipheredtext[a].replace(1,57));
+            normaltext += firstletter + normaltext + lastletter
+        }
+
+        else {
+            normaltext += (cipheredtext[a]);
+        }
+
+    }
   }
 
 
